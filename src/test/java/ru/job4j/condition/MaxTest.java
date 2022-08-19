@@ -5,6 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class MaxTest {
+
     @Test
     public void whenMax5To2Then5() {
         int left = 5;
