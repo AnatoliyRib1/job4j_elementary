@@ -15,7 +15,7 @@ class CounterTest {
     }
 
     @Test
-    public void whenSumEvenNumbersFromDot5ToFiveThenZero() {
+    public void whenSumEvenNumbersFromMinus5ToFiveThenZero() {
         int start = -5;
         int finish = 5;
         int result = Counter.sumByEven(start, finish);
