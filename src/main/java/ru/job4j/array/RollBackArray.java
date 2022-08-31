@@ -5,8 +5,8 @@ public class RollBackArray {
         int[] result = new int[array.length];
         for (int index = 0; index < array.length; index++) {
             int lastIndex = array.length - index - 1;
-            int currentIndex = index;
-            result[currentIndex] = array[lastIndex];
+            int i = index;
+            result[i] = array[lastIndex];
         }
         return result;
     }
